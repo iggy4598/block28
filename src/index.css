@@ -29,7 +29,7 @@ body > div {
   justify-content: center;
 }
 .red {
-  background-color: #b05f6d;
+  background-color: #550411;
   color: white;
 }
 .blue {
@@ -37,5 +37,6 @@ body > div {
   color: white;
 }
 .home {
-  background-color: black;
+  background-color: rgb(8, 8, 8);
+  color: white;
 }

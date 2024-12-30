@@ -1,6 +1,6 @@
 import "./App.css";
-import blue from "./Components/blue";
-import Home from "./Components/Home";
+import Blue from "./Components/blue";
+import Home from "./Components/home";
 import Red from "./Components/Red";
 import { Routes, Route, Link } from "react-router-dom";
 
@@ -8,15 +8,15 @@ function App() {
   return (
     <div id="container">
       <div id="navbar">
-        <link to="/red">red</link>
-        <link to="/blue">blue</link>
-        <link to="/Home">home</link>
+        <Link to="/red">Red</Link>
+        <Link to="/blue">Blue</Link>
+        <Link to="/home">Home</Link>
       </div>
       <div id="main-section">
         <Routes>
-          <Route path="/blue" element={<blue />} />
-          <Route path="/red" element={<red />} />
-          <Route path="/" element={<home />} />
+          <Route path="/blue" element={<Blue />} />
+          <Route path="/red" element={<Red />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </div>
     </div>
